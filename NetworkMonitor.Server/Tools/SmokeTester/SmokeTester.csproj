@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Prevent duplicate assembly attributes when referencing the web project -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Reference the built server assembly instead of a project reference to avoid duplicate assembly generation during test builds -->
+    <Reference Include="NetworkMonitor.Server">
+      <HintPath>..\\..\\bin\\Release\\net6.0\\NetworkMonitor.Server.dll</HintPath>
+    </Reference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+</Project>

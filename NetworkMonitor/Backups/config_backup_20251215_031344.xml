@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Devices>
+    <Device>
+      <Id>247c9049-7932-425b-8876-6c95262611a6</Id>
+      <Name>Google DNS</Name>
+      <IPAddress>8.8.8.8</IPAddress>
+      <MACAddress />
+      <Manufacturer>Google</Manufacturer>
+      <IsEnabled>true</IsEnabled>
+      <Status>Online</Status>
+      <LastSeen>2025-12-15T02:46:01.0768427+08:00</LastSeen>
+      <PingTime>14</PingTime>
+      <StatusColor />
+    </Device>
+  </Devices>
+  <PingIntervalSeconds>30</PingIntervalSeconds>
+  <PingTimeoutMs>2000</PingTimeoutMs>
+  <SendImmediateAlerts>false</SendImmediateAlerts>
+  <EmailNotificationHours>8</EmailNotificationHours>
+  <SmtpServer>smtp.maileroo.com</SmtpServer>
+  <SmtpPort>587</SmtpPort>
+  <EnableSsl>true</EnableSsl>
+  <Username>test_smtp2025@9acedde25a9933a9.maileroo.org</Username>
+  <Password>11e92ad902ac2448be84356c</Password>
+  <FromEmail>test_smtp2025@9acedde25a9933a9.maileroo.org</FromEmail>
+  <Recipients>
+    <string>tt639288@gmail.com</string>
+  </Recipients>
+  <LogFilePath>C:\NetworkMonitor\Logs\service.log</LogFilePath>
+  <AutoDetectMAC>true</AutoDetectMAC>
+  <MinimizeToTray>true</MinimizeToTray>
+  <StartMinimized>true</StartMinimized>
+</AppConfiguration>

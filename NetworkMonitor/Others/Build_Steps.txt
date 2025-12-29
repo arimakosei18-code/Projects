@@ -1,0 +1,18 @@
+Build Shared project first:
+
+cd C:\NetworkMonitor\Shared
+dotnet clean
+dotnet build
+
+Build NetworkMonitorService:
+
+cd C:\NetworkMonitor\NetworkMonitorService
+
+dotnet clean
+dotnet build
+
+Build GUI:
+
+cd C:\NetworkMonitor\NetworkMonitorGUI
+dotnet clean
+dotnet build

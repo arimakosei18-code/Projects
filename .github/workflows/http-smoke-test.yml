@@ -1,0 +1,37 @@
+name: HTTP smoke tests
+
+on:
+  push:
+    paths:
+      - '**/*.cs'
+      - 'Tools/HttpSmokeTester/**'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - '**/*.cs'
+      - 'Tools/HttpSmokeTester/**'
+
+jobs:
+  http-smoke:
+    name: HTTP smoke tester
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: microsoft/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build (Release)
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run HTTP smoke tester
+        run: dotnet run --project Tools/HttpSmokeTester/HttpSmokeTester.csproj -c Release --no-build
+        timeout-minutes: 5

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Devices>
+    <Device>
+      <Id>247c9049-7932-425b-8876-6c95262611a6</Id>
+      <Name>Google DNS</Name>
+      <IPAddress>8.8.8.8</IPAddress>
+      <MACAddress />
+      <Manufacturer>Google</Manufacturer>
+      <IsEnabled>true</IsEnabled>
+      <Status>Online</Status>
+      <LastSeen>2025-12-27T10:44:50.9180693+08:00</LastSeen>
+      <PingTime>58</PingTime>
+      <StatusColor />
+      <ConsecutiveOfflinePings>0</ConsecutiveOfflinePings>
+      <OfflineEmailSent>false</OfflineEmailSent>
+    </Device>
+    <Device>
+      <Id>978c5648-57bc-4b34-8371-e0e184553cb0</Id>
+      <Name>Cloudflare DNS</Name>
+      <IPAddress>1.1.1.1</IPAddress>
+      <MACAddress />
+      <Manufacturer>Cloudflare</Manufacturer>
+      <IsEnabled>true</IsEnabled>
+      <Status>Online</Status>
+      <LastSeen>2025-12-27T10:44:41.5099738+08:00</LastSeen>
+      <PingTime>76</PingTime>
+      <StatusColor />
+      <ConsecutiveOfflinePings>0</ConsecutiveOfflinePings>
+      <OfflineEmailSent>false</OfflineEmailSent>
+    </Device>
+    <Device>
+      <Id>fb6d4bed-e5a2-40e2-bf55-60ebfad33801</Id>
+      <Name>VLan 1</Name>
+      <IPAddress>192.168.1.21</IPAddress>
+      <MACAddress />
+      <Manufacturer>Unknown</Manufacturer>
+      <IsEnabled>true</IsEnabled>
+      <Status>Offline</Status>
+      <LastSeen xsi:nil="true" />
+      <PingTime>0</PingTime>
+      <StatusColor />
+      <ConsecutiveOfflinePings>1046</ConsecutiveOfflinePings>
+      <OfflineEmailSent>true</OfflineEmailSent>
+    </Device>
+    <Device>
+      <Id>ff8679dd-fdf9-46a2-a9ed-820077ea0861</Id>
+      <Name>Vlan 2</Name>
+      <IPAddress>192.168.1.23</IPAddress>
+      <MACAddress />
+      <Manufacturer>Unknown</Manufacturer>
+      <IsEnabled>true</IsEnabled>
+      <Status>Offline</Status>
+      <LastSeen xsi:nil="true" />
+      <PingTime>0</PingTime>
+      <StatusColor />
+      <ConsecutiveOfflinePings>1046</ConsecutiveOfflinePings>
+      <OfflineEmailSent>true</OfflineEmailSent>
+    </Device>
+  </Devices>
+  <PingIntervalSeconds>10</PingIntervalSeconds>
+  <PingTimeoutMs>3000</PingTimeoutMs>
+  <OfflinePingThreshold>10</OfflinePingThreshold>
+  <SmtpServer>smtp.gmail.com</SmtpServer>
+  <SmtpPort>587</SmtpPort>
+  <EnableSsl>true</EnableSsl>
+  <Username>tt639288@gmail.com</Username>
+  <Password>vfdh sfvq bpxk eimt</Password>
+  <FromEmail>tt639288@gmail.com</FromEmail>
+  <Recipients>
+    <string>tt639288@gmail.com</string>
+    <string>tt639288@gmail.com</string>
+    <string>tt639288@gmail.com</string>
+  </Recipients>
+  <LogFilePath>C:\NetworkMonitor\Logs\service.log</LogFilePath>
+  <AutoDetectMAC>true</AutoDetectMAC>
+  <MinimizeToTray>true</MinimizeToTray>
+  <StartMinimized>true</StartMinimized>
+</AppConfiguration>

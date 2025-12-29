@@ -1,0 +1,92 @@
+NetworkMonitor/
+│
+├── Build/
+│   ├── build-all.bat
+│   ├── build-launcher.bat
+│   ├── install-service (run as admin).bat
+│   ├── Network Device Monitor.bat
+│   └── run-launcher.bat
+│
+├── Logs/
+│   └── service.log
+│
+├── NetworkMonitorGUI/
+│   ├── bin/
+│   │   ├── Debug/
+│   │   └── Release/
+│   │
+│   ├── Extensions/
+│   │   └── EnumerableExtensions.cs
+│   │
+│   ├── Forms/
+│   │   ├── AddDeviceDialog.cs
+│   │   ├── LauncherForm.cs
+│   │   ├── MainForm.cs
+│   │   └── TrayForm.cs
+│   │
+│   ├── obj/
+│   │   ├── Debug/
+│   │   └── Release/
+│   │
+│   ├── NetworkMonitorGUI.csproj.nuget.dgspec.json
+│   ├── NetworkMonitorGUI.csproj.nuget.g.props
+│   ├── NetworkMonitorGUI.csproj.nuget.g.targets
+│   ├── project.assets.json
+│   ├── project.nuget.cache
+│   ├── icon.ico
+│   ├── NetworkMonitorGUI.csproj
+│   └── Program.cs
+│
+├── NetworkMonitorLauncher/
+│   ├── bin/
+│   ├── obj/
+│   ├── launcher.ico
+│   ├── LauncherForm.cs
+│   ├── NetworkMonitorLauncher.csproj
+│   └── Program.cs
+│
+├── NetworkMonitorService/
+│   ├── bin/
+│   │   ├── Debug/
+│   │   └── Release/
+│   │
+│   ├── obj/
+│   │   ├── Debug/
+│   │   └── Release/
+│   │
+│   ├── NetworkMonitorService.csproj.nuget.dgspec.json
+│   ├── NetworkMonitorService.csproj.nuget.g.props
+│   ├── NetworkMonitorService.csproj.nuget.g.targets
+│   ├── project.assets.json
+│   ├── project.nuget.cache
+│   │
+│   ├── Service/
+│   │   ├── EmailService.cs
+│   │   ├── MonitorEngine.cs
+│   │   └── NetworkMonitorService.cs
+│   │
+│   ├── NetworkMonitorService.csproj
+│   └── Program.cs
+│
+├── Shared/
+│   ├── bin/
+│   ├── Configuration/
+│   │   └── ConfigManager.cs
+│   │
+│   ├── Models/
+│   │   ├── Configuration.cs
+│   │   └── Device.cs
+│   │
+│   ├── obj/
+│   │   ├── Debug/
+│   │   └── Release/
+│   │
+│   ├── project.assets.json
+│   ├── project.nuget.cache
+│   ├── Shared.csproj.nuget.dgspec.json
+│   ├── Shared.csproj.nuget.g.props
+│   ├── Shared.csproj.nuget.g.targets
+│   └── Shared.csproj
+│
+├── config.xml
+└── NetworkMonitor.sln

@@ -1,0 +1,14 @@
+C:\NetworkMonitor\Shared\bin\Debug\net48\Shared.dll
+C:\NetworkMonitor\Shared\bin\Debug\net48\Shared.pdb
+C:\NetworkMonitor\Shared\bin\Debug\net48\System.Configuration.ConfigurationManager.dll
+C:\NetworkMonitor\Shared\bin\Debug\net48\System.Security.AccessControl.dll
+C:\NetworkMonitor\Shared\bin\Debug\net48\System.Security.Permissions.dll
+C:\NetworkMonitor\Shared\bin\Debug\net48\System.Security.Principal.Windows.dll
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.csproj.AssemblyReference.cache
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.AssemblyInfoInputs.cache
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.AssemblyInfo.cs
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.csproj.CoreCompileInputs.cache
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.csproj.Up2Date
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.dll
+C:\NetworkMonitor\Shared\obj\Debug\net48\Shared.pdb

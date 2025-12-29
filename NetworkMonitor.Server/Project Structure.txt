@@ -1,0 +1,34 @@
+NetworkMonitor.Server/
+├── NetworkMonitor.Server.csproj
+├── appsettings.json
+├── Program.cs
+├── Properties/
+│   └── launchSettings.json
+├── Data/
+│   └── ApplicationDbContext.cs
+├── Models/
+│   └── Client.cs
+│   └── ClientDevice.cs
+│   └── DeviceStatusUpdate.cs
+├── DTOs/
+│   └── HeartbeatDto.cs
+├── Controllers/
+│   └── ApiController.cs
+│   └── HomeController.cs
+│   └── DeviceManagementController.cs
+├── Services/
+│   └── ClientService.cs
+│   └── DeviceService.cs
+├── Views/
+│   ├── Home/
+│   │   ├── Index.cshtml
+│   │   ├── Clients.cshtml
+│   │   ├── Devices.cshtml
+│   │   └── ApiDocs.cshtml
+│   └── Shared/
+│       └── _Layout.cshtml
+├── wwwroot/
+│   ├── css/
+│   ├── js/
+│   └── lib/
+└── Migrations/
