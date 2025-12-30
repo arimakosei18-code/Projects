@@ -41,3 +41,4 @@ c:\Projects\NetworkMonitor\NetworkMonitorGUI\bin\Release\net48\System.ServicePro
 c:\Projects\NetworkMonitor\NetworkMonitorGUI\bin\Release\net48\Shared.dll
 c:\Projects\NetworkMonitor\NetworkMonitorGUI\bin\Release\net48\Shared.pdb
 c:\Projects\NetworkMonitor\NetworkMonitorGUI\obj\Release\net48\NetworkM.01CD92D9.Up2Date
+C:\Projects\NetworkMonitor\NetworkMonitorGUI\obj\Release\net48\NetworkMonitorGUI.sourcelink.json

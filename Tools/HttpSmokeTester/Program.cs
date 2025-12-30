@@ -13,7 +13,11 @@ internal class HttpSmokeTester
         Console.WriteLine("Starting HTTP smoke tests (in-memory host)...");
 
         // Launch the real server process and hit its HTTP endpoints (simpler than WebApplicationFactory in this workspace layout).
-        var serverDll = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "NetworkMonitor.Server", "bin", "Release", "net6.0", "NetworkMonitor.Server.dll"));
+        var envServerPath = Environment.GetEnvironmentVariable("SERVER_DLL_PATH");
+        var serverDll = !string.IsNullOrEmpty(envServerPath)
+            ? Path.GetFullPath(envServerPath)
+            : Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "NetworkMonitor.Server", "bin", "Release", "net6.0", "NetworkMonitor.Server.dll"));
+
         if (!File.Exists(serverDll))
         {
             Console.WriteLine($"Server DLL not found: {serverDll}");

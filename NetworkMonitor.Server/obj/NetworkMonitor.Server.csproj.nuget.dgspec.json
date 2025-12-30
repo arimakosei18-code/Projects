@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {}
+    "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {
+    "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj",
+        "projectUniqueName": "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj",
         "projectName": "NetworkMonitor.Server",
-        "projectPath": "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj",
+        "projectPath": "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj",
         "packagesPath": "C:\\Users\\Aldwin\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\NetworkMonitor.Server\\obj\\",
+        "outputPath": "C:\\Projects\\NetworkMonitor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aldwin\\AppData\\Roaming\\NuGet\\NuGet.Config"

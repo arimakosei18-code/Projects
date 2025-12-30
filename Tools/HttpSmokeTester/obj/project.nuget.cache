@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yy2QnPpoL9U=",
+  "dgSpecHash": "A0TKVdQqgD8=",
   "success": true,
-  "projectFilePath": "c:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
+  "projectFilePath": "C:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aldwin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0\\microsoft.aspnetcore.jsonpatch.6.0.0.nupkg.sha512",
     "C:\\Users\\Aldwin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",

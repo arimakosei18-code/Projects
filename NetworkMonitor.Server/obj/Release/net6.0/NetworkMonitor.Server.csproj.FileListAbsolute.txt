@@ -393,3 +393,4 @@ c:\Projects\NetworkMonitor.Server\obj\Release\net6.0\refint\NetworkMonitor.Serve
 c:\Projects\NetworkMonitor.Server\obj\Release\net6.0\NetworkMonitor.Server.pdb
 c:\Projects\NetworkMonitor.Server\obj\Release\net6.0\NetworkMonitor.Server.genruntimeconfig.cache
 c:\Projects\NetworkMonitor.Server\obj\Release\net6.0\ref\NetworkMonitor.Server.dll
+C:\Projects\NetworkMonitor.Server\obj\Release\net6.0\NetworkMonitor.Server.sourcelink.json

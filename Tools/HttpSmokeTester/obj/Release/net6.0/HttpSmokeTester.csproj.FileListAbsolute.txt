@@ -390,3 +390,4 @@ c:\Projects\Tools\HttpSmokeTester\bin\Release\net6.0\runtimes\win\lib\netcoreapp
 c:\Projects\Tools\HttpSmokeTester\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 c:\Projects\Tools\HttpSmokeTester\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 c:\Projects\Tools\HttpSmokeTester\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Projects\Tools\HttpSmokeTester\obj\Release\net6.0\HttpSmokeTester.sourcelink.json

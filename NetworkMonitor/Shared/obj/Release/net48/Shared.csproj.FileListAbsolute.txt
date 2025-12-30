@@ -27,3 +27,4 @@ c:\Projects\NetworkMonitor\Shared\bin\Release\net48\System.Security.AccessContro
 c:\Projects\NetworkMonitor\Shared\bin\Release\net48\System.Security.Permissions.dll
 c:\Projects\NetworkMonitor\Shared\bin\Release\net48\System.Security.Principal.Windows.dll
 c:\Projects\NetworkMonitor\Shared\obj\Release\net48\Shared.csproj.Up2Date
+C:\Projects\NetworkMonitor\Shared\obj\Release\net48\Shared.sourcelink.json

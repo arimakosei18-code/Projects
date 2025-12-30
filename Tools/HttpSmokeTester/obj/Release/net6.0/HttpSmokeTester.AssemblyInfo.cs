@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HttpSmokeTester")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33406858e22b531b2bba68e443060a5bf1d0ab8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HttpSmokeTester")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HttpSmokeTester")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

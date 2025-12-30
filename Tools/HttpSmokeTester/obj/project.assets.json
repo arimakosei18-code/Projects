@@ -4066,11 +4066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
+      "projectUniqueName": "C:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
       "projectName": "HttpSmokeTester",
-      "projectPath": "c:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
+      "projectPath": "C:\\Projects\\Tools\\HttpSmokeTester\\HttpSmokeTester.csproj",
       "packagesPath": "C:\\Users\\Aldwin\\.nuget\\packages\\",
-      "outputPath": "c:\\Projects\\Tools\\HttpSmokeTester\\obj\\",
+      "outputPath": "C:\\Projects\\Tools\\HttpSmokeTester\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aldwin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4085,8 +4085,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {
-              "projectPath": "c:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj"
+            "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj": {
+              "projectPath": "C:\\Projects\\NetworkMonitor.Server\\NetworkMonitor.Server.csproj"
             }
           }
         }

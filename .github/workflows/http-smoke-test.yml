@@ -32,6 +32,11 @@ jobs:
       - name: Build (Release)
         run: dotnet build --configuration Release --no-restore
 
+      - name: Publish server for smoke tests
+        run: dotnet publish NetworkMonitor.Server/NetworkMonitor.Server.csproj -c Release -o Tools/HttpSmokeTester/published --no-restore
+
       - name: Run HTTP smoke tester
         run: dotnet run --project Tools/HttpSmokeTester/HttpSmokeTester.csproj -c Release --no-build
         timeout-minutes: 5
+        env:
+          SERVER_DLL_PATH: Tools/HttpSmokeTester/published/NetworkMonitor.Server.dll

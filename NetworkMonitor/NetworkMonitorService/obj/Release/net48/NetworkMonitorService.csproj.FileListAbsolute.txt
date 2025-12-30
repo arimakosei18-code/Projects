@@ -37,3 +37,4 @@ c:\Projects\NetworkMonitor\NetworkMonitorService\obj\Release\net48\NetworkMonito
 c:\Projects\NetworkMonitor\NetworkMonitorService\obj\Release\net48\NetworkM.6224C44E.Up2Date
 c:\Projects\NetworkMonitor\NetworkMonitorService\obj\Release\net48\NetworkMonitorService.exe
 c:\Projects\NetworkMonitor\NetworkMonitorService\obj\Release\net48\NetworkMonitorService.pdb
+C:\Projects\NetworkMonitor\NetworkMonitorService\obj\Release\net48\NetworkMonitorService.sourcelink.json
