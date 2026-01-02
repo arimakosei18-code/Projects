@@ -286,8 +286,8 @@ namespace NetworkMonitor.Server.Controllers
                     Resolved = a.Resolved,
                     IsResolved = a.IsResolved,
                     Severity = a.Severity,
-                    ClientName = a.Client?.ClientName,
-                    DeviceName = a.Device?.Name
+                    ClientName = a.Client?.ClientName ?? string.Empty,
+                    DeviceName = a.Device?.Name ?? string.Empty
                 }).ToList();
                 
                 return Ok(new ApiResponse<List<AlertResponse>>
@@ -414,15 +414,4 @@ namespace NetworkMonitor.Server.Controllers
         public string DeviceName { get; set; } = string.Empty;
     }
     
-    public class ApiResponse<T> : ApiResponse
-    {
-        public T Data { get; set; } = default!;
-    }
-    
-    public class ApiResponse
-    {
-        public bool Success { get; set; }
-        public string Message { get; set; } = string.Empty;
-        public object Data { get; set; } = new object();
-    }
 }

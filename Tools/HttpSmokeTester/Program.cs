@@ -40,9 +40,12 @@ internal class HttpSmokeTester
 
         var cts = new CancellationTokenSource(TimeSpan.FromSeconds(10));
         var started = false;
-        while (!cts.IsCancellationRequested && !stdout.EndOfStream)
+        while (!cts.IsCancellationRequested)
         {
-            var line = await stdout.ReadLineAsync();
+            var readTask = stdout.ReadLineAsync();
+            var completed = await Task.WhenAny(readTask, Task.Delay(Timeout.InfiniteTimeSpan, cts.Token));
+            if (completed != readTask) break; // timed out or cancelled
+            var line = await readTask;
             if (line is null) break;
             Console.WriteLine(line);
             if (line.Contains("Now listening on:") || line.Contains("Application started."))
