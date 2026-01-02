@@ -190,6 +190,6 @@ namespace NetworkMonitor.Shared
 
     public class ServerResponse<T> : ServerResponse
     {
-        public T Data { get; set; }
+        public new T Data { get; set; }
     }
 }

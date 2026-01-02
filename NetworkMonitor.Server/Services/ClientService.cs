@@ -109,7 +109,7 @@ namespace NetworkMonitor.Server.Services
                 .ToListAsync();
         }
         
-        public async Task<Client> GetClientAsync(string clientId, bool includeDevices = false)
+        public async Task<Client?> GetClientAsync(string clientId, bool includeDevices = false)
         {
             var query = _context.Clients.Where(c => c.ClientId == clientId);
             
