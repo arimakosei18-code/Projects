@@ -58,7 +58,7 @@ namespace NetworkMonitor.Server.Controllers
             return View(client);
         }
         
-        public async Task<IActionResult> Devices(string status = null, string type = null)
+        public async Task<IActionResult> Devices(string? status = null, string? type = null)
         {
             var devices = await _deviceService.GetAllDevicesAsync(status, type);
             
@@ -122,7 +122,7 @@ namespace NetworkMonitor.Server.Controllers
     
     public class ErrorViewModel
     {
-        public string RequestId { get; set; }
+        public string RequestId { get; set; } = string.Empty;
         
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }

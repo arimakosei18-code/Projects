@@ -135,10 +135,10 @@ namespace NetworkMonitor.Server.Models
         
         [Required]
         [MaxLength(100)]
-        public string ClientId { get; set; }
+        public string ClientId { get; set; } = string.Empty;
         
         [MaxLength(50)]
-        public string Status { get; set; }
+        public string Status { get; set; } = string.Empty;
         
         public int PingTime { get; set; }
         
@@ -156,7 +156,7 @@ namespace NetworkMonitor.Server.Models
         
         [Required]
         [MaxLength(100)]
-        public string ClientId { get; set; }
+        public string ClientId { get; set; } = string.Empty;
         
         public int OnlineDevices { get; set; }
         public int TotalDevices { get; set; }
@@ -167,7 +167,7 @@ namespace NetworkMonitor.Server.Models
         public double ResponseTimeMs { get; set; }
         
         // Navigation properties
-        public virtual Client Client { get; set; }
+        public virtual Client Client { get; set; } = null!;
     }
     
     public class Alert
@@ -177,17 +177,17 @@ namespace NetworkMonitor.Server.Models
         
         [Required]
         [MaxLength(100)]
-        public string ClientId { get; set; }
+        public string ClientId { get; set; } = string.Empty;
         
         public Guid? DeviceId { get; set; }
         
         [Required]
         [MaxLength(100)]
-        public string AlertType { get; set; } // "DeviceOffline", "ClientOffline", "HighLatency"
+        public string AlertType { get; set; } = string.Empty; // "DeviceOffline", "ClientOffline", "HighLatency"
         
         [Required]
         [MaxLength(500)]
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
         
         [Required]
         public DateTime Created { get; set; } = DateTime.UtcNow;
@@ -201,7 +201,7 @@ namespace NetworkMonitor.Server.Models
         public string Severity { get; set; } = "Medium"; // Low, Medium, High, Critical
         
         // Navigation properties
-        public virtual Client Client { get; set; }
-        public virtual ClientDevice Device { get; set; }
+        public virtual Client Client { get; set; } = null!;
+        public virtual ClientDevice Device { get; set; } = null!;
     }
 }

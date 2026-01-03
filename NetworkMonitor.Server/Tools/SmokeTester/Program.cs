@@ -6,7 +6,7 @@ using NetworkMonitor.Server.DTOs;
 
 internal class SmokeTester
 {
-    private static async Task Main()
+    public static async Task Main()
     {
         Console.WriteLine("Starting smoke tests...");
 

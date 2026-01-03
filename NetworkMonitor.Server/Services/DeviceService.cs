@@ -16,7 +16,7 @@ namespace NetworkMonitor.Server.Services
         }
 
         // Return server-side device model `ClientDevice`
-        public async Task<List<ClientDevice>> GetAllDevicesAsync(string status = null, string type = null)
+        public async Task<List<ClientDevice>> GetAllDevicesAsync(string? status = null, string? type = null)
         {
             var query = _context.ClientDevices.AsQueryable();
 
@@ -29,7 +29,7 @@ namespace NetworkMonitor.Server.Services
             return await query.ToListAsync();
         }
         
-        public async Task<ClientDevice> GetDeviceAsync(Guid id)
+        public async Task<ClientDevice?> GetDeviceAsync(Guid id)
         {
             return await _context.ClientDevices.FirstOrDefaultAsync(d => d.Id == id);
         }
